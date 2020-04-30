@@ -2,7 +2,7 @@
 
 In this homework I'm going to generate a random password using java script.
 
-\*when click on gererate password the user will first be pompted how many charaters they want their password to be. (only 8-128 characters)
+\*when click on generate password the user will first be asked how many charaters they want their password to be. (only 8-128 characters)
 
 \*next the user will be asked if they want uppercase letters in their password
 
