@@ -96,22 +96,34 @@ var uppercase = [
       // Ask if uppercase wanted
       var allowUppercaseChars = confirm("Do you want uppercase characters?");
       // if yes then array conatining uppercase letters will be used in randomizer
-      
+      if (allowUppercaseChars) {
+        allOptions = allOptions.concat(uppercase);
+        console.log(allOptions);
+      }
   
       // ask if lowercase is wanted
       var allowLowercaseChars = confirm("Do you want lowercase characters?");
       // if yes then array conataining lowercase letters will be used in randomizer
-     
+      if (allowLowercaseChars) {
+        allOptions = allOptions.concat(lowercase);
+        console.log(allOptions);
+      }
   
       // ask if numbers are wanted
       var allowNumber = confirm("Do you want numbers?");
       // if yes then array containing numbers will be used in randomizer
-      
+      if (allowNumber) {
+        allOptions = allOptions.concat(numbers);
+        console.log(allOptions);
+      }
   
       // ask if special characters are wanted
       var allowSpecialChars = confirm("Do you want special characters?");
       // if yes than array containing special characters will be used in randomizer
-      
+      if (allowSpecialChars) {
+        allOptions = allOptions.concat(specialCharcters);
+        console.log(allOptions);
+      }
   
       //   ask how many characters they want
       var length = prompt(
