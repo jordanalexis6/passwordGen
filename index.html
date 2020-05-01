@@ -3,48 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="css/reset.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-
-    <link rel="functionality" href="main.js" />
   </head>
 
   <body class="container">
     <h1>Generate a password</h1>
-    <!-- <div class="result-box"> -->
-    <!-- <button class="btn" id="clipboard"> -->
-    <!-- <i class="far fa-clipboard"></i> -->
-    <!-- </button> -->
-    <!-- </div> -->
-    <button type="button" class="btn btn-outline-success">Create</button>
-    <script type="text/javascript">
-      // on click prompt do you want a new password
-      // if yes bring up uppercase prompt
-      // if no close window
-
-      // Ask if uppercase wanted
-      // if yes then array conatining uppercase letters will be used in randomizer
-      // if no then move on to next prompt
-
-      // ask if lowercase is wanted
-      // if yes then array conataining lowercase letters will be used in randomizer
-      // if no  then move on to next prompt
-
-      // ask if numbers are wanted
-      // if yes then array containing numbers will be used in randomizer
-      // if no then move on to next prompt
-
-      // ask if special characters are wanted
-      // if yes than array containing special characters will be used in randomizer
-      // if no continue to generate password
-
-      // alert with new password
-    </script>
+    <textarea id="password" class="form-control"></textarea>
+    <!-- <button id="clipboard" onclick="copy()">  -->
+    <!-- <i class="far fa-clipboard"></i>   -->
+    <!-- </button>  -->
+    </div>
+    <button onclick="generate()" type="button" class="btn btn-outline-success">
+      Create
+    </button>
+    
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -64,5 +41,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js"></script>
   </body>
 </html>
