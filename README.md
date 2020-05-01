@@ -1,17 +1,19 @@
 # PasswordGen
 
-In this homework I'm going to generate a random password using java script.
+In this homework I'm going to generate a random password using javascript.
 
-\*when click on generate password the user will first be asked how many charaters they want their password to be. (only 8-128 characters)
+\*when click on Create button a confirm box will come up. It will confirm that the user wants a new password
 
-\*next the user will be asked if they want uppercase letters in their password
+\*The next confirm box will ask the user if they want uppercase letters
 
-\*then the user will be asked if they want lowercase letters in their password
+\*The next confirm box will ask the user if they want to use lowercase letters
 
-\*then the user will be asked if they want numbers in their password
+\*The next confirm box will ask the user if they want to use numbers
 
-\*finally the user will be asked if they want special characters in their password
+\*The next confirm box will ask the user if they want to use special characters
 
-\*alert will pop up and confirm the user is ready
+\*The next prompt will ask the user how many characters they want to use in their password. (8-128 characters)
 
-\*the password will be generated in the box above the gnerate password button
+\*Depending on what options they picked and characters they will be randomly printed in the textbox
+
+\*There is also a cool copy button that will copy the characters inside the text box to make it easier for the user to copy the new password
