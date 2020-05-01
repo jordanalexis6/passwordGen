@@ -142,8 +142,8 @@ function generate() {
   }
 }
 
-// function copy() {
-//   var password = document.querySelector("#password");
-//   password.select();
-//   document.execCommand("copy");
-// }
+function copy() {
+  var password = document.querySelector("#password");
+  password.select();
+  document.execCommand("copy");
+}
