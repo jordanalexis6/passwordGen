@@ -182,7 +182,7 @@ function generate() {
 
     }
 
-    // alert with new password
+    // prints password into text box on html
     document.getElementById("password").innerHTML = password;
   }
 }
