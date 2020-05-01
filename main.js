@@ -126,9 +126,16 @@ var uppercase = [
       }
   
       //   ask how many characters they want
-      var length = prompt("How many characters do you want in your password? 8 min, 128 max.");
+      var length = prompt(
+        "How many characters do you want in your password? 8 min, 128 max."
+      );
+      if (length < 8 || length > 128) alert("Not a valid length!");
+      else {
         // if length if valid
-       
+        for (var i = 0; i < length; i++) {
+          password += allOptions[Math.floor(Math.random() * allOptions.length)];
+        }
+      }
   
       // alert with new password
      
