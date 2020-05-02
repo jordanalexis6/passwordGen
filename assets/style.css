@@ -1,6 +1,20 @@
 body {
   background-color: lightcyan;
+  margin: auto;
 }
 h1 {
   text-align: center;
+}
+p {
+  color: lightslategray;
+  text-align: center;
+}
+ul {
+  color: darkgray;
+}
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 20px;
 }
